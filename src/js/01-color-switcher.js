@@ -19,7 +19,6 @@ const colorChange = () => {
 
 // Function, that handle startButton click event
 function startEventHandler() {
-  // isColorChanging = true;
   startColorChange();
   startButton.setAttribute('disabled', 'true');
   stopButton.removeAttribute('disabled');
