@@ -10,4 +10,42 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 1vw 2vw;
+  display: inline-flex;
+  border: groove 2px;
+  margin: auto 0.5vw;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.colorDodge {
+  mix-blend-mode: revert;
+}
+
+a:hover {
+  text-decoration: none;
+  color: orange;
 }
