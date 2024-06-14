@@ -11,8 +11,6 @@ body {
   color: #212121;
   line-height: 1.5;
   height: 100vh;
-  display: flex;
-  align-items: center;
 }
 
 button {
@@ -32,8 +30,10 @@ button {
 
 .main {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  max-width: 30%;
+  justify-content: center;
+  height: 100vh;
   margin: auto;
 }
 
