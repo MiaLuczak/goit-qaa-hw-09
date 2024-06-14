@@ -42,6 +42,7 @@ const stopColorChange = () => {
   clearTimeout(currentTimeout);
 };
 
+// Adding eventlistener to buttons
 startButton.addEventListener('click', startEventHandler);
 
 stopButton.addEventListener(
